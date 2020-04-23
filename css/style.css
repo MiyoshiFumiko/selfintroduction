@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+
+
+header{
+    background-color: #d1a8bb;
+    color: white;
+    font-size: 24px;
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    
+}
+
+.icon{
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.icon strong{
+    font-size: 36px;
+}
+
+.header-right{
+    display: flex;
+    margin-right: 60px;
+    height: 100%;
+    align-items: center;
+}
+
+.header-right li{
+    margin-right: 20px;
+}
+
+.header-right a{
+    text-decoration: none;
+}
+
+.welcome{
+    height: 800px;
+    width: 100%;
+    background: url(../img/IMG_1044.jpeg);
+    
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+      
+    
+}
+
+.welcome-box{
+    height: 800px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.4);
+    
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+
+    animation: anime1 2s ease;
+}
+
+@keyframes anime1 {
+    0% {
+        opacity:  0;                /* 透明度指定 */
+        top: 50px;                  /* 位置指定 */
+    }
+    100% {
+        opacity:  1;                /* 透明度指定 */
+        top: 0;                     /* 位置指定 */
+    }
+}
+
+.welcome h1{
+    font-size: 120px;
+    color: #d1a8bb;
+    
+}
+
+.About-h2{
+    height: 100px;
+    background-color: #97cacf;
+    display: flex;
+    align-items: center;
+
+}
+
+.About-h2 h2{
+    
+    font-size: 36px;
+    color: white;
+    margin-left: 60px;
+}
+
+.About{
+    background-color: #97cacf;
+    height: 300px;
+
+    display: flex;
+    
+    align-items: center;
+}
+   
+
+.text{
+    color: white;
+    font-size: 28px;
+    line-height: 50px;
+
+    margin-left: 150px;
+}
+
+.Favorite-h2{
+    height: 100px;
+    background-color: #d1a8bb;
+    display: flex;
+    align-items: center;
+
+}
+
+.Favorite-h2 h2{
+    
+    font-size: 36px;
+    color: white;
+    margin-left: 60px;
+}
+
+.Favorite{
+    background-color: #d1a8bb;
+    color: white;
+}
+
+.Favorite-list{
+    
+    margin-left: 150px;
+    line-height: 60px;
+}
+
+.Favorite-list span{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.Favorite-list p{
+    font-size: 18px;
+    margin-left: 60px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    font-size: larger;
+}
+
+.Contact-h2{
+    height: 100px;
+    background-color: #97cacf;
+    display: flex;
+    align-items: center;
+
+}
+
+.Contact-h2 h2{
+    
+    font-size: 36px;
+    color: white;
+    margin-left: 60px;
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    background-color: #97cacf;
+
+    height: 400px;
+    justify-content: center;
+
+
+}
+
+.form{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-left{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-left input{
+    height: 50px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.form-right{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-right textarea{
+    width: 100%;
+    height: 100px;
+    font-size: 16px;
+}
+
+.submit{
+    text-align: center;
+    margin: 30px;
+}
+
+.contact input[type=submit] {
+    background-color: white;
+    color: #97cacf;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 15px 30px;
+    font-weight: bold;
+  }
+
+  footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d1a8bb;
+    color: white;
+}
+
+.footer-right{
+    margin-right: 60px;
+}
+
+.icon-sns{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.icon-sns img{
+    height: 60px;
+    width: 60px;
+    margin-left: 15px;
+    border-radius: 10px;
+}

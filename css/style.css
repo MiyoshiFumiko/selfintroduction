@@ -58,6 +58,7 @@ header{
     background-color: rgba(255,255,255,0.4);
     
     display: flex;  
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
@@ -257,4 +258,20 @@ a:hover{
     width: 60px;
     margin-left: 15px;
     border-radius: 10px;
+}
+
+#thankyou{
+    color: white;
+    font-size: 32px;
+}
+
+#okzoomaside{
+    display: flex;
+    justify-content: center;
+    background-color: #d1a8bb;
+}
+
+#okzoom{
+    width:500px;
+    margin-top: 30px;
 }

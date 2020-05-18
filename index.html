@@ -6,6 +6,11 @@
     <title>自己紹介</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.2/jquery.color.min.js" defer></script>
+    <script src="js/okzoom.min.js" defer></script>
+    <script src="js/app.js" defer></script>
 </head>
 <body>
    <div class="container">
@@ -28,6 +33,7 @@
     <section class="welcome">
        <div class="welcome-box">
          <h1>Welcome</h1>
+         <p id="thankyou">Thank you for your coming!</p>
        </div> 
 
     </section>
@@ -57,17 +63,17 @@
 
         <ul class="Favorite-list">
             <li>
-                <span>Artists</span>
+                <span id="artists">Artists</span>
                 <p><a href="https://higedan.com/" target="_blank">official髭男dism</a></p>
                 <p><a href="https://kinggnu.jp/" target="_blank">King Gnu</a></p>
             </li>
             <li>
-                <span>Books</span>
+                <span id="books">Books</span>
                 <p><a href="https://www.sogensha.co.jp/special/honyaku/" target="_blank">翻訳できない世界の言葉</a> </p>
                 <p><a href="https://www.sbcr.jp/product/4797398335/" target="_blank">日本の美しい色と言葉</a> </p>
             </li>
             <li>
-                <span>Clothes</span>
+                <span id="clothes">Clothes</span>
                 <p><a href="https://stripe-club.com/earth1999/">earth music&ecology</a></p>
                 <p><a href="https://www.olivedesolive-ec.jp/index.html">OLIVE des OLIVE</a> </p>
             </li>
@@ -77,8 +83,6 @@
     <div class="Contact-h2" id="contact">
         <h2>Contact</h2>
     </div>
-
-
 
     <aside class="contact">
 
@@ -101,6 +105,10 @@
 
         </form>
     </aside>
+
+    <aside id="okzoomaside">
+        <img id="okzoom" src="img/IMG_1044.jpeg" alt="">
+    </aside>
     
 
     <footer>
@@ -117,6 +125,7 @@
     </footer>
    </div>
 
-    
+   <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+   <script src="okzoom.min.js"></script>
 </body>
 </html>
